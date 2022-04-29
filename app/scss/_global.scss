@@ -39,6 +39,34 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
 
+.conteiner-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 
+@media (max-width:720px){
+    .conteiner {
+        padding: 0 15px;
+    
+    
+    }
+}
+
+.title{
+    color:$bg;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 30px;
+    
+
+}
+.tare-star{
+    display: inline-block;
+    margin-right: 13px;
+    
 }
